@@ -1,0 +1,10 @@
+# KiCad editor state, backups and lock files
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*.lck
+
+# Python bytecode from design-generation scripts
+__pycache__/
+*.pyc

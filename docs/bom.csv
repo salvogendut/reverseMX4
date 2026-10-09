@@ -1,0 +1,9 @@
+references,quantity,value,manufacturer,manufacturer_part,notes
+J1,1,Integrated 50-contact PCB edge tongue,PCB fabrication,,65.74 mm wide; 1.6 mm thick; contacts on both faces
+J2 J3 J4 J5,4,50-contact vertical card-edge socket,EDAC,395-050-521-204,2.54 mm pitch; 5.08 mm row spacing; 3.96 mm mounting holes
+J6,1,2-position 5.00 mm terminal block,Phoenix Contact,1715022,MKDS 1.5/2; pin 1 +5 V; pin 2 GND
+F1,1,3 A hold PTC resettable fuse,Bourns,MF-RG300-0,External 5 V input only
+JP1,1,1x3 2.54 mm through-hole header,Samtec,TSW-103-07-G-S,Power source selector
+JP1 shunt,1,2-position 2.54 mm shunt,Samtec,SNT-100-BK-G,Place 1-2 for CPC or 2-3 for external power
+C1,1,100 uF 10 V radial electrolytic,,,6.3 mm diameter; 2.5 mm lead spacing; pad 1 positive
+C2,1,100 nF 50 V ceramic disc,,,3.0 mm body; 2.5 mm lead spacing

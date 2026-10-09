@@ -1,0 +1,51 @@
+contact,signal,notes
+1,SOUND,Mono audio output
+2,GND,Ground
+3,A15,Address bus
+4,A14,Address bus
+5,A13,Address bus
+6,A12,Address bus
+7,A11,Address bus
+8,A10,Address bus
+9,A9,Address bus
+10,A8,Address bus
+11,A7,Address bus
+12,A6,Address bus
+13,A5,Address bus
+14,A4,Address bus
+15,A3,Address bus
+16,A2,Address bus
+17,A1,Address bus
+18,A0,Address bus
+19,D7,Data bus
+20,D6,Data bus
+21,D5,Data bus
+22,D4,Data bus
+23,D3,Data bus
+24,D2,Data bus
+25,D1,Data bus
+26,D0,Data bus
+27,+5V,Computer-side 5 V supply or reference
+28,/MREQ,Active low
+29,/M1,Active low
+30,/RFSH,Active low
+31,/IORQ,Active low
+32,/RD,Active low
+33,/WR,Active low
+34,/HALT,Active low
+35,/INT,Active low
+36,/NMI,Active low
+37,/BUSRQ,Active low
+38,/BUSAK,Active low
+39,/WAIT,Also called READY
+40,/BUS_RESET,Active low
+41,/RESET,Active low
+42,/ROMEN,Active low
+43,ROMDIS,Active high
+44,/RAMRD,Active low
+45,RAMDIS,Active high
+46,CURSOR,Display timing
+47,LPEN,Light pen
+48,/EXP,Active low
+49,GND,Ground
+50,CLK4,4 MHz clock

@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/var/home/salvogendut/Dev/reverseMX4/reverseMX4.kicad_sch</source>
+    <date>2026-10-09T10:46:55</date>
+    <tool>Eeschema 10.0.6-1.fc44app2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CPC four-slot edge backplane</title>
+        <company/>
+        <rev>A0</rev>
+        <date>2026-10-09</date>
+        <source>reverseMX4.kicad_sch</source>
+        <comment number="1" value="CPC / CPC Plus via model-specific cable"/>
+        <comment number="2" value="External 5V must be regulated; select one power source"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF_10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="reverseMX4" part="Shunt_2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f336138e-4e19-5f27-b524-ded608559d27</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF_50V</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="reverseMX4" part="Shunt_2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf8479a4-201f-5c26-a954-85eefff1dcc8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>3A_PTC</value>
+      <footprint>Fuse:Fuse_Bourns_MF-RG300</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_Bourns_MF-RG300</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="reverseMX4" part="Series_2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb5194f3-98aa-5f6b-b2d2-986ac4908dbe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>CPC_CABLE_EDGE</value>
+      <footprint>reverseMX4:CPC_Edge_2x25</footprint>
+      <fields>
+        <field name="Footprint">reverseMX4:CPC_Edge_2x25</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6896779-a06d-5890-ae86-fc166068d70f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="45"/>
+            <pin num="47"/>
+            <pin num="49"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="42"/>
+            <pin num="44"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="50"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>EDGE_SLOT_1</value>
+      <footprint>reverseMX4:EDAC_395-050-521-204</footprint>
+      <fields>
+        <field name="Footprint">reverseMX4:EDAC_395-050-521-204</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf47e03a-7be4-5c4a-bb66-b5ab82540b52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="45"/>
+            <pin num="47"/>
+            <pin num="49"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="42"/>
+            <pin num="44"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="50"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>EDGE_SLOT_2</value>
+      <footprint>reverseMX4:EDAC_395-050-521-204</footprint>
+      <fields>
+        <field name="Footprint">reverseMX4:EDAC_395-050-521-204</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5f0d43d-03e6-57b5-8ed9-cf67fde8c441</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="45"/>
+            <pin num="47"/>
+            <pin num="49"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="42"/>
+            <pin num="44"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="50"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>EDGE_SLOT_3</value>
+      <footprint>reverseMX4:EDAC_395-050-521-204</footprint>
+      <fields>
+        <field name="Footprint">reverseMX4:EDAC_395-050-521-204</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bd936c9-e5dd-5d8e-904a-05f156055bfb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="45"/>
+            <pin num="47"/>
+            <pin num="49"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="42"/>
+            <pin num="44"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="50"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>EDGE_SLOT_4</value>
+      <footprint>reverseMX4:EDAC_395-050-521-204</footprint>
+      <fields>
+        <field name="Footprint">reverseMX4:EDAC_395-050-521-204</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Odd_Even" description="Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>617a2e18-1474-5812-9641-85a65defc622</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="45"/>
+            <pin num="47"/>
+            <pin num="49"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="42"/>
+            <pin num="44"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="50"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>EXT_5V_IN</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="reverseMX4" part="PowerIn_2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb426c75-8182-5342-9da4-24de02f5145f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>5V_SOURCE_SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="reverseMX4" part="Select_3" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="reverseMX4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>083e0118-a89f-5b03-9443-74854f1dce7e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x25_Odd_Even">
+      <description>Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x25_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reverseMX4" part="PowerIn_2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PowerIn_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reverseMX4" part="Select_3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Select_3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reverseMX4" part="Series_2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Series_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reverseMX4" part="Shunt_2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Shunt_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="reverseMX4">
+      <uri>${KIPRJMOD}/reverseMX4.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A0" class="Default">
+      <node ref="J1" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
+      <node ref="J3" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
+      <node ref="J4" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
+      <node ref="J5" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
+    </net>
+    <net code="2" name="/A1" class="Default">
+      <node ref="J1" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
+      <node ref="J3" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
+      <node ref="J4" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
+      <node ref="J5" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
+    </net>
+    <net code="3" name="/A2" class="Default">
+      <node ref="J1" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+      <node ref="J5" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+    </net>
+    <net code="4" name="/A3" class="Default">
+      <node ref="J1" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+      <node ref="J5" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+    </net>
+    <net code="5" name="/A4" class="Default">
+      <node ref="J1" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+    </net>
+    <net code="6" name="/A5" class="Default">
+      <node ref="J1" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+      <node ref="J5" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+    </net>
+    <net code="7" name="/A6" class="Default">
+      <node ref="J1" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+    </net>
+    <net code="8" name="/A7" class="Default">
+      <node ref="J1" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+    </net>
+    <net code="9" name="/A8" class="Default">
+      <node ref="J1" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+    </net>
+    <net code="10" name="/A9" class="Default">
+      <node ref="J1" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+    </net>
+    <net code="11" name="/A10" class="Default">
+      <node ref="J1" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+    </net>
+    <net code="12" name="/A11" class="Default">
+      <node ref="J1" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+    </net>
+    <net code="13" name="/A12" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="14" name="/A13" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    </net>
+    <net code="15" name="/A14" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="16" name="/A15" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="17" name="/BUS_5V" class="Default">
+      <node ref="C1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J2" pin="27" pinfunction="Pin_27_27" pintype="passive"/>
+      <node ref="J3" pin="27" pinfunction="Pin_27_27" pintype="passive"/>
+      <node ref="J4" pin="27" pinfunction="Pin_27_27" pintype="passive"/>
+      <node ref="J5" pin="27" pinfunction="Pin_27_27" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="18" name="/CLK4" class="Default">
+      <node ref="J1" pin="50" pinfunction="Pin_50_50" pintype="passive"/>
+      <node ref="J2" pin="50" pinfunction="Pin_50_50" pintype="passive"/>
+      <node ref="J3" pin="50" pinfunction="Pin_50_50" pintype="passive"/>
+      <node ref="J4" pin="50" pinfunction="Pin_50_50" pintype="passive"/>
+      <node ref="J5" pin="50" pinfunction="Pin_50_50" pintype="passive"/>
+    </net>
+    <net code="19" name="/CPC_5V" class="Default">
+      <node ref="J1" pin="27" pinfunction="Pin_27_27" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="20" name="/CURSOR" class="Default">
+      <node ref="J1" pin="46" pinfunction="Pin_46_46" pintype="passive"/>
+      <node ref="J2" pin="46" pinfunction="Pin_46_46" pintype="passive"/>
+      <node ref="J3" pin="46" pinfunction="Pin_46_46" pintype="passive"/>
+      <node ref="J4" pin="46" pinfunction="Pin_46_46" pintype="passive"/>
+      <node ref="J5" pin="46" pinfunction="Pin_46_46" pintype="passive"/>
+    </net>
+    <net code="21" name="/D0" class="Default">
+      <node ref="J1" pin="26" pinfunction="Pin_26_26" pintype="passive"/>
+      <node ref="J2" pin="26" pinfunction="Pin_26_26" pintype="passive"/>
+      <node ref="J3" pin="26" pinfunction="Pin_26_26" pintype="passive"/>
+      <node ref="J4" pin="26" pinfunction="Pin_26_26" pintype="passive"/>
+      <node ref="J5" pin="26" pinfunction="Pin_26_26" pintype="passive"/>
+    </net>
+    <net code="22" name="/D1" class="Default">
+      <node ref="J1" pin="25" pinfunction="Pin_25_25" pintype="passive"/>
+      <node ref="J2" pin="25" pinfunction="Pin_25_25" pintype="passive"/>
+      <node ref="J3" pin="25" pinfunction="Pin_25_25" pintype="passive"/>
+      <node ref="J4" pin="25" pinfunction="Pin_25_25" pintype="passive"/>
+      <node ref="J5" pin="25" pinfunction="Pin_25_25" pintype="passive"/>
+    </net>
+    <net code="23" name="/D2" class="Default">
+      <node ref="J1" pin="24" pinfunction="Pin_24_24" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="Pin_24_24" pintype="passive"/>
+      <node ref="J3" pin="24" pinfunction="Pin_24_24" pintype="passive"/>
+      <node ref="J4" pin="24" pinfunction="Pin_24_24" pintype="passive"/>
+      <node ref="J5" pin="24" pinfunction="Pin_24_24" pintype="passive"/>
+    </net>
+    <net code="24" name="/D3" class="Default">
+      <node ref="J1" pin="23" pinfunction="Pin_23_23" pintype="passive"/>
+      <node ref="J2" pin="23" pinfunction="Pin_23_23" pintype="passive"/>
+      <node ref="J3" pin="23" pinfunction="Pin_23_23" pintype="passive"/>
+      <node ref="J4" pin="23" pinfunction="Pin_23_23" pintype="passive"/>
+      <node ref="J5" pin="23" pinfunction="Pin_23_23" pintype="passive"/>
+    </net>
+    <net code="25" name="/D4" class="Default">
+      <node ref="J1" pin="22" pinfunction="Pin_22_22" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="Pin_22_22" pintype="passive"/>
+      <node ref="J3" pin="22" pinfunction="Pin_22_22" pintype="passive"/>
+      <node ref="J4" pin="22" pinfunction="Pin_22_22" pintype="passive"/>
+      <node ref="J5" pin="22" pinfunction="Pin_22_22" pintype="passive"/>
+    </net>
+    <net code="26" name="/D5" class="Default">
+      <node ref="J1" pin="21" pinfunction="Pin_21_21" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="Pin_21_21" pintype="passive"/>
+      <node ref="J3" pin="21" pinfunction="Pin_21_21" pintype="passive"/>
+      <node ref="J4" pin="21" pinfunction="Pin_21_21" pintype="passive"/>
+      <node ref="J5" pin="21" pinfunction="Pin_21_21" pintype="passive"/>
+    </net>
+    <net code="27" name="/D6" class="Default">
+      <node ref="J1" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
+      <node ref="J3" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
+      <node ref="J4" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
+      <node ref="J5" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
+    </net>
+    <net code="28" name="/D7" class="Default">
+      <node ref="J1" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
+      <node ref="J3" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
+      <node ref="J4" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
+      <node ref="J5" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
+    </net>
+    <net code="29" name="/EXT_5V" class="Default">
+      <node ref="F1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="30" name="/EXT_5V_FUSED" class="Default">
+      <node ref="F1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="31" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J1" pin="49" pinfunction="Pin_49_49" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J2" pin="49" pinfunction="Pin_49_49" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="49" pinfunction="Pin_49_49" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J4" pin="49" pinfunction="Pin_49_49" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J5" pin="49" pinfunction="Pin_49_49" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="32" name="/LPEN" class="Default">
+      <node ref="J1" pin="47" pinfunction="Pin_47_47" pintype="passive"/>
+      <node ref="J2" pin="47" pinfunction="Pin_47_47" pintype="passive"/>
+      <node ref="J3" pin="47" pinfunction="Pin_47_47" pintype="passive"/>
+      <node ref="J4" pin="47" pinfunction="Pin_47_47" pintype="passive"/>
+      <node ref="J5" pin="47" pinfunction="Pin_47_47" pintype="passive"/>
+    </net>
+    <net code="33" name="/RAMDIS" class="Default">
+      <node ref="J1" pin="45" pinfunction="Pin_45_45" pintype="passive"/>
+      <node ref="J2" pin="45" pinfunction="Pin_45_45" pintype="passive"/>
+      <node ref="J3" pin="45" pinfunction="Pin_45_45" pintype="passive"/>
+      <node ref="J4" pin="45" pinfunction="Pin_45_45" pintype="passive"/>
+      <node ref="J5" pin="45" pinfunction="Pin_45_45" pintype="passive"/>
+    </net>
+    <net code="34" name="/ROMDIS" class="Default">
+      <node ref="J1" pin="43" pinfunction="Pin_43_43" pintype="passive"/>
+      <node ref="J2" pin="43" pinfunction="Pin_43_43" pintype="passive"/>
+      <node ref="J3" pin="43" pinfunction="Pin_43_43" pintype="passive"/>
+      <node ref="J4" pin="43" pinfunction="Pin_43_43" pintype="passive"/>
+      <node ref="J5" pin="43" pinfunction="Pin_43_43" pintype="passive"/>
+    </net>
+    <net code="35" name="/SOUND" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="36" name="/nBUSAK" class="Default">
+      <node ref="J1" pin="38" pinfunction="Pin_38_38" pintype="passive"/>
+      <node ref="J2" pin="38" pinfunction="Pin_38_38" pintype="passive"/>
+      <node ref="J3" pin="38" pinfunction="Pin_38_38" pintype="passive"/>
+      <node ref="J4" pin="38" pinfunction="Pin_38_38" pintype="passive"/>
+      <node ref="J5" pin="38" pinfunction="Pin_38_38" pintype="passive"/>
+    </net>
+    <net code="37" name="/nBUSRQ" class="Default">
+      <node ref="J1" pin="37" pinfunction="Pin_37_37" pintype="passive"/>
+      <node ref="J2" pin="37" pinfunction="Pin_37_37" pintype="passive"/>
+      <node ref="J3" pin="37" pinfunction="Pin_37_37" pintype="passive"/>
+      <node ref="J4" pin="37" pinfunction="Pin_37_37" pintype="passive"/>
+      <node ref="J5" pin="37" pinfunction="Pin_37_37" pintype="passive"/>
+    </net>
+    <net code="38" name="/nBUS_RESET" class="Default">
+      <node ref="J1" pin="40" pinfunction="Pin_40_40" pintype="passive"/>
+      <node ref="J2" pin="40" pinfunction="Pin_40_40" pintype="passive"/>
+      <node ref="J3" pin="40" pinfunction="Pin_40_40" pintype="passive"/>
+      <node ref="J4" pin="40" pinfunction="Pin_40_40" pintype="passive"/>
+      <node ref="J5" pin="40" pinfunction="Pin_40_40" pintype="passive"/>
+    </net>
+    <net code="39" name="/nEXP" class="Default">
+      <node ref="J1" pin="48" pinfunction="Pin_48_48" pintype="passive"/>
+      <node ref="J2" pin="48" pinfunction="Pin_48_48" pintype="passive"/>
+      <node ref="J3" pin="48" pinfunction="Pin_48_48" pintype="passive"/>
+      <node ref="J4" pin="48" pinfunction="Pin_48_48" pintype="passive"/>
+      <node ref="J5" pin="48" pinfunction="Pin_48_48" pintype="passive"/>
+    </net>
+    <net code="40" name="/nHALT" class="Default">
+      <node ref="J1" pin="34" pinfunction="Pin_34_34" pintype="passive"/>
+      <node ref="J2" pin="34" pinfunction="Pin_34_34" pintype="passive"/>
+      <node ref="J3" pin="34" pinfunction="Pin_34_34" pintype="passive"/>
+      <node ref="J4" pin="34" pinfunction="Pin_34_34" pintype="passive"/>
+      <node ref="J5" pin="34" pinfunction="Pin_34_34" pintype="passive"/>
+    </net>
+    <net code="41" name="/nINT" class="Default">
+      <node ref="J1" pin="35" pinfunction="Pin_35_35" pintype="passive"/>
+      <node ref="J2" pin="35" pinfunction="Pin_35_35" pintype="passive"/>
+      <node ref="J3" pin="35" pinfunction="Pin_35_35" pintype="passive"/>
+      <node ref="J4" pin="35" pinfunction="Pin_35_35" pintype="passive"/>
+      <node ref="J5" pin="35" pinfunction="Pin_35_35" pintype="passive"/>
+    </net>
+    <net code="42" name="/nIORQ" class="Default">
+      <node ref="J1" pin="31" pinfunction="Pin_31_31" pintype="passive"/>
+      <node ref="J2" pin="31" pinfunction="Pin_31_31" pintype="passive"/>
+      <node ref="J3" pin="31" pinfunction="Pin_31_31" pintype="passive"/>
+      <node ref="J4" pin="31" pinfunction="Pin_31_31" pintype="passive"/>
+      <node ref="J5" pin="31" pinfunction="Pin_31_31" pintype="passive"/>
+    </net>
+    <net code="43" name="/nM1" class="Default">
+      <node ref="J1" pin="29" pinfunction="Pin_29_29" pintype="passive"/>
+      <node ref="J2" pin="29" pinfunction="Pin_29_29" pintype="passive"/>
+      <node ref="J3" pin="29" pinfunction="Pin_29_29" pintype="passive"/>
+      <node ref="J4" pin="29" pinfunction="Pin_29_29" pintype="passive"/>
+      <node ref="J5" pin="29" pinfunction="Pin_29_29" pintype="passive"/>
+    </net>
+    <net code="44" name="/nMREQ" class="Default">
+      <node ref="J1" pin="28" pinfunction="Pin_28_28" pintype="passive"/>
+      <node ref="J2" pin="28" pinfunction="Pin_28_28" pintype="passive"/>
+      <node ref="J3" pin="28" pinfunction="Pin_28_28" pintype="passive"/>
+      <node ref="J4" pin="28" pinfunction="Pin_28_28" pintype="passive"/>
+      <node ref="J5" pin="28" pinfunction="Pin_28_28" pintype="passive"/>
+    </net>
+    <net code="45" name="/nNMI" class="Default">
+      <node ref="J1" pin="36" pinfunction="Pin_36_36" pintype="passive"/>
+      <node ref="J2" pin="36" pinfunction="Pin_36_36" pintype="passive"/>
+      <node ref="J3" pin="36" pinfunction="Pin_36_36" pintype="passive"/>
+      <node ref="J4" pin="36" pinfunction="Pin_36_36" pintype="passive"/>
+      <node ref="J5" pin="36" pinfunction="Pin_36_36" pintype="passive"/>
+    </net>
+    <net code="46" name="/nRAMRD" class="Default">
+      <node ref="J1" pin="44" pinfunction="Pin_44_44" pintype="passive"/>
+      <node ref="J2" pin="44" pinfunction="Pin_44_44" pintype="passive"/>
+      <node ref="J3" pin="44" pinfunction="Pin_44_44" pintype="passive"/>
+      <node ref="J4" pin="44" pinfunction="Pin_44_44" pintype="passive"/>
+      <node ref="J5" pin="44" pinfunction="Pin_44_44" pintype="passive"/>
+    </net>
+    <net code="47" name="/nRD" class="Default">
+      <node ref="J1" pin="32" pinfunction="Pin_32_32" pintype="passive"/>
+      <node ref="J2" pin="32" pinfunction="Pin_32_32" pintype="passive"/>
+      <node ref="J3" pin="32" pinfunction="Pin_32_32" pintype="passive"/>
+      <node ref="J4" pin="32" pinfunction="Pin_32_32" pintype="passive"/>
+      <node ref="J5" pin="32" pinfunction="Pin_32_32" pintype="passive"/>
+    </net>
+    <net code="48" name="/nRESET" class="Default">
+      <node ref="J1" pin="41" pinfunction="Pin_41_41" pintype="passive"/>
+      <node ref="J2" pin="41" pinfunction="Pin_41_41" pintype="passive"/>
+      <node ref="J3" pin="41" pinfunction="Pin_41_41" pintype="passive"/>
+      <node ref="J4" pin="41" pinfunction="Pin_41_41" pintype="passive"/>
+      <node ref="J5" pin="41" pinfunction="Pin_41_41" pintype="passive"/>
+    </net>
+    <net code="49" name="/nRFSH" class="Default">
+      <node ref="J1" pin="30" pinfunction="Pin_30_30" pintype="passive"/>
+      <node ref="J2" pin="30" pinfunction="Pin_30_30" pintype="passive"/>
+      <node ref="J3" pin="30" pinfunction="Pin_30_30" pintype="passive"/>
+      <node ref="J4" pin="30" pinfunction="Pin_30_30" pintype="passive"/>
+      <node ref="J5" pin="30" pinfunction="Pin_30_30" pintype="passive"/>
+    </net>
+    <net code="50" name="/nROMEN" class="Default">
+      <node ref="J1" pin="42" pinfunction="Pin_42_42" pintype="passive"/>
+      <node ref="J2" pin="42" pinfunction="Pin_42_42" pintype="passive"/>
+      <node ref="J3" pin="42" pinfunction="Pin_42_42" pintype="passive"/>
+      <node ref="J4" pin="42" pinfunction="Pin_42_42" pintype="passive"/>
+      <node ref="J5" pin="42" pinfunction="Pin_42_42" pintype="passive"/>
+    </net>
+    <net code="51" name="/nWAIT" class="Default">
+      <node ref="J1" pin="39" pinfunction="Pin_39_39" pintype="passive"/>
+      <node ref="J2" pin="39" pinfunction="Pin_39_39" pintype="passive"/>
+      <node ref="J3" pin="39" pinfunction="Pin_39_39" pintype="passive"/>
+      <node ref="J4" pin="39" pinfunction="Pin_39_39" pintype="passive"/>
+      <node ref="J5" pin="39" pinfunction="Pin_39_39" pintype="passive"/>
+    </net>
+    <net code="52" name="/nWR" class="Default">
+      <node ref="J1" pin="33" pinfunction="Pin_33_33" pintype="passive"/>
+      <node ref="J2" pin="33" pinfunction="Pin_33_33" pintype="passive"/>
+      <node ref="J3" pin="33" pinfunction="Pin_33_33" pintype="passive"/>
+      <node ref="J4" pin="33" pinfunction="Pin_33_33" pintype="passive"/>
+      <node ref="J5" pin="33" pinfunction="Pin_33_33" pintype="passive"/>
+    </net>
+  </nets>
+</export>
